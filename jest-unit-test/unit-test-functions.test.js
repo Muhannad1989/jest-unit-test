@@ -1,4 +1,4 @@
-const functions = require("./functions");
+const functions = require("./unit-test-functions");
 
 const start = () => console.log("start test");
 const end = () => console.log("end test");

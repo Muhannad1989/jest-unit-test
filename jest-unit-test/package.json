@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "testwatch": "jest --watchAll",
-    "build": "webpack src/js/app.js dist/bundle.js",
-    "build-minify": "webpack src/js/app.js dist/bundle.js -p"
+    "build": "webpack app.js dist/main.js",
+    "build-minify": "webpack app.js dist/main.js -p"
   },
   "keywords": [
     "js",
